@@ -12901,9 +12901,9 @@ input.main-search-input:-ms-input-placeholder {
   }
 }
 
-.share-social {
+/* .share-social {
   border-bottom: 1px solid #e7e7e7;
-}
+} */
 
 .share-social .author__social a {
   color: #b9b9b9;

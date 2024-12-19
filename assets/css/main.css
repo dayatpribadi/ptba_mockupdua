@@ -7190,6 +7190,13 @@ input.main-search-input:-ms-input-placeholder {
   margin-right: 30px;
   margin-bottom: 30px;
   margin-top: 7px;
+  transition: all .5s;
+}
+
+
+
+.about-text .img-box:hover {
+  transform: scale(1.05);
 }
 
 @media (max-width: 767px) {
@@ -8438,7 +8445,8 @@ input.main-search-input:-ms-input-placeholder {
 
 .single-services2 {
   text-align: center;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+  background-color: #FFFEF8;
   margin-bottom: 30px;
 }
 
@@ -10410,9 +10418,9 @@ input.main-search-input:-ms-input-placeholder {
 }
 
 .portfolio-container {
-  max-width: 1600px;
   width: 100%;
-  margin: 0 0 0 auto;
+  max-width: 1300px;
+  margin: auto;
   position: relative;
   z-index: 1;
   overflow: hidden;
@@ -16664,6 +16672,16 @@ input.main-search-input:-ms-input-placeholder {
   vertical-align: middle;
   direction: ltr;
   padding: 20px 0px 5px 10px !important
+}
+
+
+.img-invest-hm {
+  width: 430px !important;
+  transition: all .5s;
+}
+
+.img-invest-hm:hover {
+  transform: scale(1.05);
 }
 
 /*# sourceMappingURL=main.css.map */
